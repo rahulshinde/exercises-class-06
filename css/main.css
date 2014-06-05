@@ -98,15 +98,77 @@ textarea {
    ========================================================================== */
 
 
+/*Nav object*/
 
+.nav{
+	list-style: none;
+}
 
+.nav,
+.nav > li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
 
+.nav a {
+	display: block;
+}
 
+.masthead-brand a {
+	display: block;
+	width: 220px;
+	height: 344px;
+	overflow: hidden;
+	background: url(../img/logo-parts_and_labor.jpg) left top no-repeat;
+	background-size: cover;
+}
 
+.masthead-brand a:before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 150%;
+}
 
+.masthead-nav, 
+.masthead-social {
+	text-align: right;
+}
 
+.masthead .masthead-nav {
+	float: right;
+	padding-top: 90px;
+	margin-right: 0;
+	font-family: 'after_shokregular';
+	font-size: 20px;
+	
+}
 
+.masthead .masthead-social {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 
+.masthead-social a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/sprites.png);
+	background-repeat: no-repeat
+}
+
+.social-twitter {
+	background-position: -96px 0; 
+}
+
+.social-instagram {
+	background-position: -48px 0;
+}
+
+.social-facebook {
+}
 
 
 
